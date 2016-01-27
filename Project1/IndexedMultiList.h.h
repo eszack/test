@@ -32,7 +32,7 @@ public:
 	*/
 
 	int countPosition(int index);
-	//returns number of items at position index (0 based) or 0 if index is invalid
+	//returns the number of items at position index (0 based) or 0 if index is invalid
 	bool getAt(int index, char &out);
 	/*if position index is in use, out is set to char at that position and true is returned, otherwise false is returned. This is kind of like [] for an array but with error checking*/
 
